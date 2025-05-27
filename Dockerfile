@@ -11,4 +11,4 @@ RUN pip install --no-cache-dir validators
 
 EXPOSE 8502
 
-CMD [ "python", "-m",  "streamlit", "run", "./main.py" "--server.port 8502" ]
+CMD [ "python", "-m",  "streamlit", "run", "./main.py", "--server.port 8502" ]
