@@ -9,6 +9,6 @@ RUN pip install --no-cache-dir st_pages
 RUN pip install --no-cache-dir streamlit_extras
 RUN pip install --no-cache-dir validators
 
-EXPOSE 8502
+EXPOSE 8501
 
-CMD [ "python", "-m",  "streamlit", "run", "./main.py", "--server.port 8502" ]
+CMD [ "python", "-m",  "streamlit", "run", "./main.py" ]
